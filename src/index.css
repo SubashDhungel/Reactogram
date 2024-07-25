@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box; /*if you set an element's width to 200px
+                        with box-sizing: border-box;, that 200px includes the padding and border,
+                        so the content area adjusts accordingly.*/
+}
+body{
+  background-color: #fff;
+  font-family: "Outfit", sans-serif;
+  /* font-family: roboto; */
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
